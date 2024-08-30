@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
  
@@ -29,7 +30,7 @@
 
         height: 80px;
         display: flex;
-        background-color: #24BF7C;
+     
     }
     .container1 .web_title{
 
@@ -252,6 +253,97 @@ margin-top: 40px;
 
 
 }
+
+.services_content{
+
+
+
+display: flex;
+justify-content: center;
+
+margin-top: 100px;
+}
+
+.services_content2{
+
+
+    width: 1000px;
+ 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.services_content3{
+
+width: 200px;
+border: 2px solid black;
+border-radius: 20px;
+font-family: "inter";
+margin: 40px 40px;
+}
+
+.services_content3 .service_title{
+
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px 5px 5px;
+}
+
+.services_content3 .service_icon{
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 5px 5px 5px 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.services_content3 .service_icon i{
+
+    font-size: 60px;
+    color: white;
+}
+.services_content3 .service_icon div{
+
+    background-color: rgb(14, 14, 13);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.services_content3 .service_para{
+
+    margin: 10px 10px 10px 10px;
+}
+
+.services_content3 .telegram{
+
+    width: 95px;
+}
+
+.webhook{
+
+width: 60px;
+margin-bottom: 10px;
+
+}
+
+.others{
+
+    color: white;
+    font-size: 15px;
+}
+.email_continer{
+
+    background-color: #536CCE;
+    height: 800px;
+}
 @media screen and (max-width:900px){
 
 
@@ -439,7 +531,7 @@ justify-content: cent;
 <div class="button_container">
     <div class="button_container2">
         <button>Get Started</button>
-        <button>More Info</button>
+        <button>Get a Quote</button>
     </div>
 </div>
 
@@ -447,21 +539,108 @@ justify-content: cent;
 <div class="services_container">
     <h3>Services</h3>
 </div>
-<div>
-    <div>
-        <div>
-            <h3>Facebook Bot</h3>
-            <p>Automate interactions on Facebook pages and groups with powerful bots.</p>
+<div class="services_content">
+    <div class="services_content2">
+        <div class="services_content3">
+            <div class="service_title">
+                <h3>Facebook Bot</h3>
+            </div>
+            <div class="service_icon">
+                <div>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="service_para">
+                <p>Automate interactions on Facebook pages and groups with powerful bots.</p>
+            </div>
         </div>
-        <div>
-            <h3>Instagram Bot</h3>
-            <h3></h3>
+        <div class="services_content3">
+            <div class="service_title">
+                <h3>Instagram Bot</h3>
+            </div>
+            <div class="service_icon">
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="service_para">
+                <p>Enhance your Instagram presence with bots that manage posts and interactions.</p>
+            </div>
         </div>
-        <div>
-            <h3></h3>
-            <h3></h3>
+        <div class="services_content3">
+            <div class="service_title">
+                <h3>Telegram Bot</h3>
+            </div>
+            <div class="service_icon">
+                <img src="telegram-brands-solid.svg" class="telegram">
+            </div>
+            <div class="service_para">
+                <p>Automate interactions on Facebook pages and groups with powerful bots.</p>
+            </div>
         </div>
+        <div class="services_content3">
+            <div class="service_title">
+                <h3>Facebook Bot</h3>
+            </div>
+            <div class="service_icon">
+                <div>
+                 
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+            </div>
+            <div class="service_para">
+                <p>Automate interactions on Facebook pages and groups with powerful bots.</p>
+            </div>
+        </div>
+        <div class="services_content3">
+            <div class="service_title">
+                <h3>Messenger Bot</h3>
+            </div>
+            <div class="service_icon">
+                <div>
+               
+                       <i class="fab fa-facebook-messenger"></i>
+                </div>
+                
+            </div>
+            <div class="service_para">
+                <p>Engage with your users on Facebook Messenger with intelligent bots.</p>
+            </div>
+        </div>
+        <div class="services_content3">
+            <div class="service_title">
+                <h3>Webhook Bot</h3>
+            </div>
+            <div class="service_icon">
+                <div>
+                    <img src="webhooks-svgrepo-com (1).svg" class="webhook" >
+                </div>
+            </div>
+            <div class="service_para">
+                <p>Automate interactions on Facebook pages and groups with powerful bots.</p>
+            </div>
+        </div>
+        <div class="services_content3">
+            <div class="service_title">
+                <h3>Others Bot</h3>
+            </div>
+            <div class="service_icon">
+                <div>
+                    <h1 class="others">Others+</h1>
+                </div>
+            </div>
+            <div class="service_para">
+                <p>Automate interactions on Facebook pages and groups with powerful bots.</p>
+            </div>
+        </div>
+    
+     
     </div>
+</div>
+<div class="email_continer">
+    <h1>Hello</h1>
+
+
 </div>
 
 
